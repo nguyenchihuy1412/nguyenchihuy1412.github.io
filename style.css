@@ -4,7 +4,6 @@ body ::selection{background-color: yellow;}
 html,body{height: 100%; width: 100%; background-color: #e5e8ec; overflow-x: hidden;}
 body {font-family: 'lato',sans-serif; color: #555;}
 
-
 .row.header {
     background-color: #fff;
 }
@@ -65,7 +64,7 @@ body {font-family: 'lato',sans-serif; color: #555;}
     position: relative;
 }
 
-.menu.navDisplay .top .fa-bars {
+.menu.navDisplay .top .fa-close {
     font-size: 30px;
     padding: 17px;
     color: white;
@@ -89,7 +88,7 @@ body {font-family: 'lato',sans-serif; color: #555;}
     color: #fff;
 }
 
-.menu.navDisplay .fa:not(.fa-bars):hover
+.menu.navDisplay .fa:not(.fa-close):hover
 {
     background-color: #111;
 }

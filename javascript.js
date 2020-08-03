@@ -13,11 +13,4 @@
         nut.classList.remove('faded');
     };
     /* End navbar effect */
-
-    window.addEventListener('scroll',function(){
-        console.log(window.pageYOffset);
-        if (window.pageYOffset > 300) {
-            console.log('Dang o menu roi');
-        }
-    });
 });
